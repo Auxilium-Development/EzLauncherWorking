@@ -1,0 +1,10 @@
+Package: com.auxilium.ezlauncherpref
+Version: 0.1
+Section: Tweaks
+Maintainer: MidnightChip
+Depends: mobilesubstrate
+Conflicts:
+Architecture: iphoneos-arm
+Description: PrefBundleForEzCC
+Name: EzLauncher
+Author: Auxilium

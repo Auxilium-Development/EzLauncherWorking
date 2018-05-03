@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+					 <key>cell</key>
+					 <string>PSGroupCell</string>
+					 <key>label</key>
+					 <string>Why Have static toggles when you can make your own?</string>
+					 <key>footerText</key>
+					 <string>EzLauncher</string>
+			 </dict>
+
+<dict>
+	 <key>cell</key>
+	 <string>PSStaticTextCell</string>
+	 <key>cellClass</key>
+	 <string>PFHeaderCell</string>
+	 <key>background</key>
+	 <string>#EFEFF4</string>
+	 <key>icon</key>
+	 <string>Banner.png</string>
+	 <key>alignment</key>
+	 <string>0</string>
+	 <key>height</key>
+	 <integer>165</integer>
+ </dict>
+ <dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string>Select the app that you would like each toggle to open, then add the amount of toggles that you want to the CC. :)</string>
+				<key>footerText</key>
+				<string>Feel Free to contact us if you have any issues.</string>
+		</dict>
+		<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>bundle</key>
+		<string>AppList</string>
+		<key>isController</key>
+		<string>1</string>
+		<key>label</key>
+		<string>Select the app to be launched by toggle 1</string>
+		<key>icon</key>
+		<string></string>
+		<key>ALSettingsKey</key>
+		<string>app1</string>
+		<key>ALSettingsPath</key>
+		<string>/var/mobile/Library/Preferences/com.midnightchip.ezlauncher</string>
+		<key>ALSingleEnabledMode</key>
+		<string>1</string>
+		<key>ALChangeNotification</key>
+		<string>com.midnightchip.ezlauncher/saved</string>
+		<key>ALSectionDescriptors</key>
+		<array>
+		<dict>
+		<key>cell-class-name</key>
+		<string>ALSwitchCell</string>
+		<key>predicate</key>
+		<string>isSystemApplication = TRUE</string>
+		<key>icon-size</key>
+		<string>29</string>
+		<key>suppress-hidden-apps</key>
+		<string>1</string>
+		<key>title</key>
+		<string>System Applications</string>
+		</dict>
+		<dict>
+		<key>cell-class-name</key>
+		<string>ALSwitchCell</string>
+		<key>predicate</key>
+		<string>isSystemApplication = FALSE</string>
+		<key>icon-size</key>
+		<string>29</string>
+		<key>suppress-hidden-apps</key>
+		<string>1</string>
+		<key>title</key>
+		<string>User Applications</string>
+		</dict>
+		</array>
+		</dict>
+
+		<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>bundle</key>
+		<string>AppList</string>
+		<key>isController</key>
+		<string>1</string>
+		<key>label</key>
+		<string>Select the app to be launched by toggle 2</string>
+		<key>icon</key>
+		<string></string>
+		<key>ALSettingsKey</key>
+		<string>app2</string>
+		<key>ALSettingsPath</key>
+		<string>/var/mobile/Library/Preferences/com.midnightchip.ezlauncher</string>
+		<key>ALSingleEnabledMode</key>
+		<string>1</string>
+		<key>ALChangeNotification</key>
+		<string>com.midnightchip.ezlauncher/saved</string>
+		<key>ALSectionDescriptors</key>
+		<array>
+		<dict>
+		<key>cell-class-name</key>
+		<string>ALSwitchCell</string>
+		<key>predicate</key>
+		<string>isSystemApplication = TRUE</string>
+		<key>icon-size</key>
+		<string>29</string>
+		<key>suppress-hidden-apps</key>
+		<string>1</string>
+		<key>title</key>
+		<string>System Applications</string>
+		</dict>
+		<dict>
+		<key>cell-class-name</key>
+		<string>ALSwitchCell</string>
+		<key>predicate</key>
+		<string>isSystemApplication = FALSE</string>
+		<key>icon-size</key>
+		<string>29</string>
+		<key>suppress-hidden-apps</key>
+		<string>1</string>
+		<key>title</key>
+		<string>User Applications</string>
+		</dict>
+		</array>
+		</dict>
+
+		<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>bundle</key>
+		<string>AppList</string>
+		<key>isController</key>
+		<string>1</string>
+		<key>label</key>
+		<string>Select the app to be launched by toggle 3</string>
+		<key>icon</key>
+		<string></string>
+		<key>ALSettingsKey</key>
+		<string>app3</string>
+		<key>ALSettingsPath</key>
+		<string>/var/mobile/Library/Preferences/com.midnightchip.ezlauncher</string>
+		<key>ALSingleEnabledMode</key>
+		<string>1</string>
+		<key>ALChangeNotification</key>
+		<string>com.midnightchip.ezlauncher/saved</string>
+		<key>ALSectionDescriptors</key>
+		<array>
+		<dict>
+		<key>cell-class-name</key>
+		<string>ALSwitchCell</string>
+		<key>predicate</key>
+		<string>isSystemApplication = TRUE</string>
+		<key>icon-size</key>
+		<string>29</string>
+		<key>suppress-hidden-apps</key>
+		<string>1</string>
+		<key>title</key>
+		<string>System Applications</string>
+		</dict>
+		<dict>
+		<key>cell-class-name</key>
+		<string>ALSwitchCell</string>
+		<key>predicate</key>
+		<string>isSystemApplication = FALSE</string>
+		<key>icon-size</key>
+		<string>29</string>
+		<key>suppress-hidden-apps</key>
+		<string>1</string>
+		<key>title</key>
+		<string>User Applications</string>
+		</dict>
+		</array>
+		</dict>
+
+		<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>bundle</key>
+		<string>AppList</string>
+		<key>isController</key>
+		<string>1</string>
+		<key>label</key>
+		<string>Select the app to be launched by toggle 4</string>
+		<key>icon</key>
+		<string></string>
+		<key>ALSettingsKey</key>
+		<string>app4</string>
+		<key>ALSettingsPath</key>
+		<string>/var/mobile/Library/Preferences/com.midnightchip.ezlauncher</string>
+		<key>ALSingleEnabledMode</key>
+		<string>1</string>
+		<key>ALChangeNotification</key>
+		<string>com.midnightchip.ezlauncher/saved</string>
+		<key>ALSectionDescriptors</key>
+		<array>
+		<dict>
+		<key>cell-class-name</key>
+		<string>ALSwitchCell</string>
+		<key>predicate</key>
+		<string>isSystemApplication = TRUE</string>
+		<key>icon-size</key>
+		<string>29</string>
+		<key>suppress-hidden-apps</key>
+		<string>1</string>
+		<key>title</key>
+		<string>System Applications</string>
+		</dict>
+		<dict>
+		<key>cell-class-name</key>
+		<string>ALSwitchCell</string>
+		<key>predicate</key>
+		<string>isSystemApplication = FALSE</string>
+		<key>icon-size</key>
+		<string>29</string>
+		<key>suppress-hidden-apps</key>
+		<string>1</string>
+		<key>title</key>
+		<string>User Applications</string>
+		</dict>
+		</array>
+		</dict>
+
+		<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>bundle</key>
+		<string>AppList</string>
+		<key>isController</key>
+		<string>1</string>
+		<key>label</key>
+		<string>Select the app to be launched by toggle 5</string>
+		<key>icon</key>
+		<string></string>
+		<key>ALSettingsKey</key>
+		<string>app5</string>
+		<key>ALSettingsPath</key>
+		<string>/var/mobile/Library/Preferences/com.midnightchip.ezlauncher</string>
+		<key>ALSingleEnabledMode</key>
+		<string>1</string>
+		<key>ALChangeNotification</key>
+		<string>com.midnightchip.ezlauncher/saved</string>
+		<key>ALSectionDescriptors</key>
+		<array>
+		<dict>
+		<key>cell-class-name</key>
+		<string>ALSwitchCell</string>
+		<key>predicate</key>
+		<string>isSystemApplication = TRUE</string>
+		<key>icon-size</key>
+		<string>29</string>
+		<key>suppress-hidden-apps</key>
+		<string>1</string>
+		<key>title</key>
+		<string>System Applications</string>
+		</dict>
+		<dict>
+		<key>cell-class-name</key>
+		<string>ALSwitchCell</string>
+		<key>predicate</key>
+		<string>isSystemApplication = FALSE</string>
+		<key>icon-size</key>
+		<string>29</string>
+		<key>suppress-hidden-apps</key>
+		<string>1</string>
+		<key>title</key>
+		<string>User Applications</string>
+		</dict>
+		</array>
+		</dict>
+
+		<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>bundle</key>
+		<string>AppList</string>
+		<key>isController</key>
+		<string>1</string>
+		<key>label</key>
+		<string>Select the app to be launched by toggle 6</string>
+		<key>icon</key>
+		<string></string>
+		<key>ALSettingsKey</key>
+		<string>app6</string>
+		<key>ALSettingsPath</key>
+		<string>/var/mobile/Library/Preferences/com.midnightchip.ezlauncher</string>
+		<key>ALSingleEnabledMode</key>
+		<string>1</string>
+		<key>ALChangeNotification</key>
+		<string>com.midnightchip.ezlauncher/saved</string>
+		<key>ALSectionDescriptors</key>
+		<array>
+		<dict>
+		<key>cell-class-name</key>
+		<string>ALSwitchCell</string>
+		<key>predicate</key>
+		<string>isSystemApplication = TRUE</string>
+		<key>icon-size</key>
+		<string>29</string>
+		<key>suppress-hidden-apps</key>
+		<string>1</string>
+		<key>title</key>
+		<string>System Applications</string>
+		</dict>
+		<dict>
+		<key>cell-class-name</key>
+		<string>ALSwitchCell</string>
+		<key>predicate</key>
+		<string>isSystemApplication = FALSE</string>
+		<key>icon-size</key>
+		<string>29</string>
+		<key>suppress-hidden-apps</key>
+		<string>1</string>
+		<key>title</key>
+		<string>User Applications</string>
+		</dict>
+		</array>
+		</dict>
+
+		<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>bundle</key>
+		<string>AppList</string>
+		<key>isController</key>
+		<string>1</string>
+		<key>label</key>
+		<string>Select the app to be launched by toggle 7</string>
+		<key>icon</key>
+		<string></string>
+		<key>ALSettingsKey</key>
+		<string>app7</string>
+		<key>ALSettingsPath</key>
+		<string>/var/mobile/Library/Preferences/com.midnightchip.ezlauncher</string>
+		<key>ALSingleEnabledMode</key>
+		<string>1</string>
+		<key>ALChangeNotification</key>
+		<string>com.midnightchip.ezlauncher/saved</string>
+		<key>ALSectionDescriptors</key>
+		<array>
+		<dict>
+		<key>cell-class-name</key>
+		<string>ALSwitchCell</string>
+		<key>predicate</key>
+		<string>isSystemApplication = TRUE</string>
+		<key>icon-size</key>
+		<string>29</string>
+		<key>suppress-hidden-apps</key>
+		<string>1</string>
+		<key>title</key>
+		<string>System Applications</string>
+		</dict>
+		<dict>
+		<key>cell-class-name</key>
+		<string>ALSwitchCell</string>
+		<key>predicate</key>
+		<string>isSystemApplication = FALSE</string>
+		<key>icon-size</key>
+		<string>29</string>
+		<key>suppress-hidden-apps</key>
+		<string>1</string>
+		<key>title</key>
+		<string>User Applications</string>
+		</dict>
+		</array>
+		</dict>
+
+		<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>bundle</key>
+		<string>AppList</string>
+		<key>isController</key>
+		<string>1</string>
+		<key>label</key>
+		<string>Select the app to be launched by toggle 8</string>
+		<key>icon</key>
+		<string></string>
+		<key>ALSettingsKey</key>
+		<string>app8</string>
+		<key>ALSettingsPath</key>
+		<string>/var/mobile/Library/Preferences/com.midnightchip.ezlauncher</string>
+		<key>ALSingleEnabledMode</key>
+		<string>1</string>
+		<key>ALChangeNotification</key>
+		<string>com.midnightchip.ezlauncher/saved</string>
+		<key>ALSectionDescriptors</key>
+		<array>
+		<dict>
+		<key>cell-class-name</key>
+		<string>ALSwitchCell</string>
+		<key>predicate</key>
+		<string>isSystemApplication = TRUE</string>
+		<key>icon-size</key>
+		<string>29</string>
+		<key>suppress-hidden-apps</key>
+		<string>1</string>
+		<key>title</key>
+		<string>System Applications</string>
+		</dict>
+		<dict>
+		<key>cell-class-name</key>
+		<string>ALSwitchCell</string>
+		<key>predicate</key>
+		<string>isSystemApplication = FALSE</string>
+		<key>icon-size</key>
+		<string>29</string>
+		<key>suppress-hidden-apps</key>
+		<string>1</string>
+		<key>title</key>
+		<string>User Applications</string>
+		</dict>
+		</array>
+		</dict>
+
+		<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>bundle</key>
+		<string>AppList</string>
+		<key>isController</key>
+		<string>1</string>
+		<key>label</key>
+		<string>Select the app to be launched by toggle 9</string>
+		<key>icon</key>
+		<string></string>
+		<key>ALSettingsKey</key>
+		<string>app9</string>
+		<key>ALSettingsPath</key>
+		<string>/var/mobile/Library/Preferences/com.midnightchip.ezlauncher</string>
+		<key>ALSingleEnabledMode</key>
+		<string>1</string>
+		<key>ALChangeNotification</key>
+		<string>com.midnightchip.ezlauncher/saved</string>
+		<key>ALSectionDescriptors</key>
+		<array>
+		<dict>
+		<key>cell-class-name</key>
+		<string>ALSwitchCell</string>
+		<key>predicate</key>
+		<string>isSystemApplication = TRUE</string>
+		<key>icon-size</key>
+		<string>29</string>
+		<key>suppress-hidden-apps</key>
+		<string>1</string>
+		<key>title</key>
+		<string>System Applications</string>
+		</dict>
+		<dict>
+		<key>cell-class-name</key>
+		<string>ALSwitchCell</string>
+		<key>predicate</key>
+		<string>isSystemApplication = FALSE</string>
+		<key>icon-size</key>
+		<string>29</string>
+		<key>suppress-hidden-apps</key>
+		<string>1</string>
+		<key>title</key>
+		<string>User Applications</string>
+		</dict>
+		</array>
+		</dict>
+
+		<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>bundle</key>
+		<string>AppList</string>
+		<key>isController</key>
+		<string>1</string>
+		<key>label</key>
+		<string>Select the app to be launched by toggle 10</string>
+		<key>icon</key>
+		<string></string>
+		<key>ALSettingsKey</key>
+		<string>app10</string>
+		<key>ALSettingsPath</key>
+		<string>/var/mobile/Library/Preferences/com.midnightchip.ezlauncher</string>
+		<key>ALSingleEnabledMode</key>
+		<string>1</string>
+		<key>ALChangeNotification</key>
+		<string>com.midnightchip.ezlauncher/saved</string>
+		<key>ALSectionDescriptors</key>
+		<array>
+		<dict>
+		<key>cell-class-name</key>
+		<string>ALSwitchCell</string>
+		<key>predicate</key>
+		<string>isSystemApplication = TRUE</string>
+		<key>icon-size</key>
+		<string>29</string>
+		<key>suppress-hidden-apps</key>
+		<string>1</string>
+		<key>title</key>
+		<string>System Applications</string>
+		</dict>
+		<dict>
+		<key>cell-class-name</key>
+		<string>ALSwitchCell</string>
+		<key>predicate</key>
+		<string>isSystemApplication = FALSE</string>
+		<key>icon-size</key>
+		<string>29</string>
+		<key>suppress-hidden-apps</key>
+		<string>1</string>
+		<key>title</key>
+		<string>User Applications</string>
+		</dict>
+		</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Created By:</string>
+		</dict>
+
+		<dict>
+		<key>action</key>
+		<string>ContactmeTwitter</string>
+		<key>cell</key>
+		<string>PSButtonCell</string>
+		<key>icon</key>
+				<string>twitter.png</string>
+		<key>label</key>
+		<string>@MidnightChip</string>
+		</dict>
+
+		<dict>
+		<key>action</key>
+		<string>ContactmeReddit</string>
+		<key>cell</key>
+		<string>PSButtonCell</string>
+		<key>icon</key>
+				<string>reddit.png</string>
+		<key>label</key>
+		<string>/u/midnightchip</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Join the Auxilium Discord!</string>
+		</dict>
+
+		<dict>
+		<key>action</key>
+		<string>AuxiliumDiscord</string>
+		<key>cell</key>
+		<string>PSButtonCell</string>
+		<key>icon</key>
+				<string>discord.png</string>
+		<key>label</key>
+		<string>Auxilium</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Support us and our antics!</string>
+			<key>footerText</key>
+			<string>We promise to never lock any of our content behind Patreon.</string>
+		</dict>
+
+		<dict>
+		<key>action</key>
+		<string>Paypal</string>
+		<key>cell</key>
+		<string>PSButtonCell</string>
+		<key>icon</key>
+				<string>paypal.png</string>
+		<key>label</key>
+		<string>Buy us a soda or something ʕ•ᴥ•ʔ</string>
+		</dict>
+
+		<dict>
+		<key>action</key>
+		<string>Patreon</string>
+		<key>cell</key>
+		<string>PSButtonCell</string>
+		<key>icon</key>
+				<string>patreon.png</string>
+		<key>label</key>
+		<string>Help us continue to make tweaks _へ__(‾◡◝ )> </string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Thank you All for your support, we really enjoy making tweaks.</string>
+			<key>footerText</key>
+			<string>Those of you who think we underdeliver, please let us know so that we can make a change.</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>EzLauncher</string>
+</dict>
+</plist>
